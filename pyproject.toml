@@ -18,6 +18,11 @@ dependencies = [
   "streamlit"
 ]
 
+[project.scripts]
+train_and_deploy = "FinalTensor.train_and_deploy:main"
+train_model = "FinalTensor.train_model:main"
+
+
 
 [tool.setuptools]
 package-dir = {"" = "src"}

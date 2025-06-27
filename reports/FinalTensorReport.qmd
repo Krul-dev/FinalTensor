@@ -7,12 +7,12 @@ title: |
   Reporte Final
 
 author:
-  - name: Raul Gomez
+  - name: Raúl Gómez
     affiliation: Tecnológico de Monterrey
     email: raul@example.com
-  - name: Jane Smith
-    affiliation: University of Data Science
-    email: jane.smith@example.edu
+  - name: Sofía Salinas
+    affiliation: Tecnológico de Monterrey
+    email: ssalinas@tec.mx
 date: today
 date-format: short
 format:

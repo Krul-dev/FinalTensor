@@ -9,7 +9,7 @@ Description:
 
 import subprocess
 import os
-from train_model import main as train_model_main
+from FinalTensor.train_model import main as train_model_main
 
 def git_add_and_commit(file_paths, message):
     for path in file_paths:
