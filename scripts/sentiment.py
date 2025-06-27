@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Author: Raul Gomez
+Date: 2025-03-19
+Description: 
+"""
+
 import streamlit as st
 from FinalTensor.controller import SentimentController
 import os

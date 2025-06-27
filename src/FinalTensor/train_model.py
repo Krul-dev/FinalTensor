@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Author: Raul Gomez
+Date: 2025-03-19
+Description: 
+"""
+
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.utils import to_categorical
@@ -31,7 +40,7 @@ def main():
     model.train(X_padded, y, epochs=100, verbose=1)
 
     # Save model and tokenizer
-    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models"))
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__),"..", "..", "models"))
     os.makedirs(base_dir, exist_ok=True)
     model.save(
         os.path.join(base_dir, "sentiment_model.keras"),

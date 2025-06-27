@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Author: Raul Gomez
+Date: 2025-03-19
+Description: 
+"""
+
+
 import subprocess
 import os
 from train_model import main as train_model_main
@@ -15,8 +24,8 @@ def main():
     train_model_main()
 
     # Step 2: Git add + commit + push
-    model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models", "sentiment_model.keras"))
-    tokenizer_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "models", "tokenizer.pkl"))
+    model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "models", "sentiment_model.keras"))
+    tokenizer_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "models", "tokenizer.pkl"))
 
     try:
         git_add_and_commit([model_path, tokenizer_path], "Update trained sentiment model")

@@ -1,0 +1,36 @@
+---
+title: |
+  CADI: IA para la Educación con 
+  
+  TensorFlow en Google Colab
+
+  Reporte Final
+
+author:
+  - name: Raul Gomez
+    affiliation: Tecnológico de Monterrey
+    email: raul@example.com
+  - name: Jane Smith
+    affiliation: University of Data Science
+    email: jane.smith@example.edu
+date: today
+date-format: short
+format:
+  pdf:
+    fontsize: 11pt
+    pdf-engine: pdflatex
+    number-sections: true
+
+
+jupyter: python3
+
+highlight-style: tango 
+
+
+execute:
+    echo: true  # Set to false if you don't want code displayed
+---
+
+# Plataforma Streamlit
+
+Resumen de la plataforma.

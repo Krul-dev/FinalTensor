@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Author: Raul Gomez
+Date: 2025-03-19
+Description: 
+"""
+
+
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
