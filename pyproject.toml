@@ -1,0 +1,16 @@
+[project]
+name = "FinalTensor"
+version = "0.1.0"
+description = ""
+authors = [{ name="Raul Gomez", email="rgomez@tec.mx" }]
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
