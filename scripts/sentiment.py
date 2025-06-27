@@ -17,16 +17,16 @@ def load_controller():
     return SentimentController(model_path, tokenizer_path)
 
 def main():
-    st.title("Análisis de Sentimiento de Opiniones")
+    st.title("Análisis de los Comentarios de los Estudiantes en las ECOAS")
 
     controller = load_controller()
 
-    user_input = st.text_input("Escribe tu opinión aquí:")
+    user_input = st.text_input("Escribe el comentario recibido:")
 
-    if st.button("Analizar sentimiento"):
+    if st.button("Analizar el comentario"):
         if user_input.strip():
             result = controller.analyze_sentiment(user_input)
-            st.success(f"Sentimiento detectado: {result}")
+            st.success(f"El comentario recibido es: {result}")
         else:
             st.warning("Por favor ingresa un texto.")
 
