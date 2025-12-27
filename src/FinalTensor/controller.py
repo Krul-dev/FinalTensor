@@ -10,6 +10,7 @@ Description:
 import numpy as np
 from FinalTensor.model import SentimentModel
 
+
 class SentimentController:
     def __init__(self, model_path, tokenizer_path):
         self.label_map = {0: 'positivo', 1: 'negativo', 2: 'neutral'}
